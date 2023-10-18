@@ -5,7 +5,6 @@ import routes from './routes'
 const app: any = express()
 const port: Number = 5050
 
-
 app
     .use(cors<Request>())
     .use(express.urlencoded({extended: true}))
