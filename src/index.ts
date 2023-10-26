@@ -12,7 +12,7 @@ app
     .get("/", (req: Request,res: Response ): any =>{
         res.status(200).send("Welcome to Restful api")
     })
-    .use(routes)
+    // .use(routes)
 
     .listen(port, (): void => {
         console.log(`Server running on port: ${port}`)
